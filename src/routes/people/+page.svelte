@@ -19,7 +19,7 @@
       name: "Manas Jain Kuniya",
       post: "IIT Kanpur Undergrad Student",
       note: "Aims to build foundational infra for the new AI world.",
-      linkedin: "www.linkedin.com/in/manas-jain-kuniya",
+      linkedin: "https://www.linkedin.com/in/manas-jain-kuniya",
     },
   ];
 </script>

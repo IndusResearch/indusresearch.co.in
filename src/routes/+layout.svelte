@@ -1,5 +1,4 @@
 <script lang="ts">
-	import favicon from '$lib/assets/favicon/favicon.svg';
 	import NavBar from '$lib/components/NavBar.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 
@@ -12,7 +11,6 @@
 		name="description"
 		content="Indus Research helps AI teams optimize call flows, inference spend, and operational performance per dollar."
 	/>
-	<link rel="icon" href={favicon} />
 </svelte:head>
 
 <div class="app-shell">

@@ -14,7 +14,7 @@
 			</p>
 			<div class="hero-cta fade-up delay-2">
 				<a class="btn primary" href={meetingMailto}>Discuss your stack</a>
-				<a class="btn secondary" href="/about">How we work</a>
+				<a class="btn secondary" href="/#about">How we work</a>
 			</div>
 		</div>
 		<div class="hero-art fade-up delay-2" aria-hidden="true">
