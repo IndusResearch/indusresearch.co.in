@@ -1,6 +1,6 @@
 <script lang="ts">
   import { meetingMailto } from "$lib/content/site";
-
+  import {resolve} from "$app/paths"
   let { title } = $props<{ title: string }>();
 </script>
 
@@ -15,7 +15,7 @@
       out directly and we will support your use case one-on-one.
     </p>
     <div class="cta-row">
-      <a class="btn primary" href="/people">Meet the founders</a>
+      <a class="btn primary" href={resolve("/people")}>Meet the founders</a>
       <a class="btn secondary" href={meetingMailto}>Book a consultation</a>
     </div>
   </div>
