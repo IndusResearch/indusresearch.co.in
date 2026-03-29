@@ -6,10 +6,10 @@
 </script>
 
 <svelte:head>
-	<title>Indus Research | Optimizing performance per dollar</title>
+	<title>Indus Research | Self-improving LLMs</title>
 	<meta
 		name="description"
-		content="Indus Research helps AI teams optimize call flows, inference spend, and operational performance per dollar."
+		content="Indus Research builds self-improving LLMs that match frontier model performance at a fraction of the cost."
 	/>
 </svelte:head>
 
@@ -23,14 +23,14 @@
 
 <style>
 	:global(:root) {
-		--bg: #070707;
-		--surface: #101010;
-		--surface-soft: #171717;
-		--text: #f8f8f8;
-		--muted: #a8a8a8;
-		--line: #262626;
-		--accent: #d6ff3f;
-		--accent-soft: #f2ffc2;
+		--bg: #1a1a1a;
+		--surface: #242424;
+		--surface-soft: #2e2e2e;
+		--text: #ffffeb;
+		--muted: #b8b8a8;
+		--line: #3a3a3a;
+		--accent: #4AD4FF;
+		--accent-soft: #85e2ff;
 		--max-width: 1120px;
 	}
 
@@ -42,9 +42,9 @@
 	:global(body) {
 		margin: 0;
 		padding: 0;
-		background: radial-gradient(circle at 0% -20%, #161616 0%, var(--bg) 45%), var(--bg);
+		background: radial-gradient(circle at 0% -20%, var(--surface) 0%, var(--bg) 45%), var(--bg);
 		color: var(--text);
-		font-family: 'Space Grotesk', 'Avenir Next', 'Segoe UI', sans-serif;
+		font-family: 'JetBrains Mono', monospace;
 		min-height: 100%;
 	}
 
@@ -76,16 +76,16 @@
 	}
 
 	:global(.headline) {
-		font-size: clamp(2rem, 4vw, 4.6rem);
-		line-height: 1.06;
+		font-size: clamp(1.8rem, 3.5vw, 3.8rem);
+		line-height: 1.15;
 		margin: 0.8rem 0;
-		max-width: 12ch;
+		max-width: 25ch;
 	}
 
 	:global(.lede) {
 		color: var(--muted);
-		max-width: 62ch;
-		font-size: clamp(1rem, 1.4vw, 1.2rem);
+		max-width: 70ch;
+		font-size: clamp(1rem, 1.2vw, 1.1rem);
 	}
 
 	:global(.chip) {
@@ -104,7 +104,7 @@
 		align-items: center;
 		justify-content: center;
 		padding: 0.8rem 1.1rem;
-		border-radius: 0.65rem;
+		border-radius: 999px;
 		font-weight: 600;
 		border: 1px solid transparent;
 		transition: transform 180ms ease, background 180ms ease, border-color 180ms ease;
@@ -112,7 +112,7 @@
 
 	:global(.btn.primary) {
 		background: var(--accent);
-		color: #131313;
+		color: #101010;
 	}
 
 	:global(.btn.secondary) {

@@ -6,8 +6,8 @@
 	<div class="container footer-grid">
 		<div>
 			<p class="eyebrow">Indus Research</p>
-			<p class="foot-line">Optimizing performance per dollar for the AI world.</p>
-			<a class="btn secondary" href={meetingMailto}>Contact us</a>
+			<p class="foot-line">Self-improving LLMs at a fraction of the cost.</p>
+			<a class="btn secondary" href="https://forms.gle/yRwzvwwgtzKBvEWu6" target="_blank" rel="noreferrer">Contact us</a>
 		</div>
 
 		<div>
@@ -38,7 +38,7 @@
 	</div>
 
 	<div class="container foot-end">
-		<p>Built for teams that care about quality, speed, and cost discipline.</p>
+		<p>Built for teams that care about quality, speed, and cost.</p>
 	</div>
 </footer>
 

@@ -3,7 +3,7 @@
 </script>
 
 <a class="logo" href={resolve("/")} aria-label="Indus Research home">
-  <span class="logo-mark">IR</span>
+  <img src={resolve("/favicon/logo.svg")} alt="IR Logo" class="logo-mark" />
   <span class="logo-text">Indus Research</span>
 </a>
 
@@ -16,17 +16,9 @@
   }
 
   .logo-mark {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
     width: 2rem;
     height: 2rem;
-    border-radius: 0.4rem;
-    background: var(--accent);
-    color: #101010;
-    font-size: 0.83rem;
-    font-weight: 800;
-    letter-spacing: 0.06em;
+    object-fit: contain;
   }
 
   .logo-text {

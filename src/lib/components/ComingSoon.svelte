@@ -9,14 +9,12 @@
     <p class="eyebrow">{title}</p>
     <h1>Shipping quietly. Saving aggressively.</h1>
     <p class="lede">
-      We are building this surface with the same discipline we use for client
-      workloads: measurable performance gains, lower inference waste, and high
-      reliability. <span class="bold">Public launch is next.</span> Until then, reach
+      We are building! <span class="bold">Public launch is next.</span> Until then, reach
       out directly and we will support your use case one-on-one.
     </p>
     <div class="cta-row">
       <a class="btn primary" href={resolve("/people")}>Meet the founders</a>
-      <a class="btn secondary" href={meetingMailto}>Book a consultation</a>
+      <a class="btn secondary" href="https://forms.gle/yRwzvwwgtzKBvEWu6" target="_blank" rel="noreferrer">Book a consultation</a>
     </div>
   </div>
 </section>

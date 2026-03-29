@@ -5,20 +5,20 @@
   const founders = [
     {
       name: "Pranav Krishna",
-      post: "IIT Kanpur Undergrad Student",
-      note: "Vision to build a better future with a new optimization focused AI world.",
+      post: "Junior Undergraduate at IIT Kanpur",
+      note: "",
       linkedin: "https://www.linkedin.com/in/jjbigdub/",
     },
     {
-      name: "Nitin Maheshwar",
-      post: "IIT Kanpur Undergrad Student",
-      note: "Thrives to bring all the cash book to net positive.",
+      name: "Nitin Maheshwari",
+      post: "Junior Undergraduate at IIT Kanpur",
+      note: "",
       linkedin: "https://www.linkedin.com/in/nitin-maheshwari-1aa805291/",
     },
     {
       name: "Manas Jain Kuniya",
-      post: "IIT Kanpur Undergrad Student",
-      note: "Aims to build foundational infra for the new AI world.",
+      post: "Junior Undergraduate at IIT Kanpur",
+      note: "",
       linkedin: "https://www.linkedin.com/in/manas-jain-kuniya",
     },
   ];
@@ -29,7 +29,7 @@
     <p class="eyebrow fade-up">People</p>
     <h1 class="headline fade-up delay-1">Founders aligned on one promise.</h1>
     <p class="lede fade-up delay-2">
-      We help teams ship faster AI products while continuously reducing
+      We help teams ship faster reliable AI products while continuously reducing
       avoidable spend.
     </p>
   </div>
@@ -46,7 +46,7 @@
 <section class="section">
   <div class="container cta fade-up">
     <p>Want to discuss your current model cost and performance profile?</p>
-    <a class="btn primary" href={meetingMailto}>Contact us for a meeting</a>
+    <a class="btn primary" href="https://forms.gle/yRwzvwwgtzKBvEWu6" target="_blank" rel="noreferrer">Contact us for a meeting</a>
   </div>
 </section>
 
