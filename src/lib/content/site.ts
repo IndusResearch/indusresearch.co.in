@@ -3,7 +3,7 @@ import { resolve } from "$app/paths";
 export const navLinks = [
   { href: resolve("/#about"), label: "About" },
   { href: resolve("/people"), label: "People" },
-  { href: resolve("/dashboard"), label: "Dashboard" },
+  { href: "https://dashboard.indusresearch.co.in", label: "Dashboard" },
   { href: resolve("/blogs"), label: "Blogs" },
   { href: resolve("/docs"), label: "Docs" },
 ];
@@ -11,7 +11,7 @@ export const navLinks = [
 export const communityLinks = [
   // TOOD: Update with the correct links
   // { href: 'https://discord.com', label: 'Discord' },
-  { href: "https://www.linkedin.com", label: "LinkedIn" },
+  { href: "https://www.linkedin.com/company/indusresearch/", label: "LinkedIn" },
   // { href: 'https://x.com', label: 'X' },
   { href: "https://github.com/IndusResearch", label: "GitHub" },
 ];
@@ -35,4 +35,4 @@ const body = encodeURIComponent(
 );
 
 // TODO: Update mail id
-export const meetingMailto = `mailto:hello@indusresearch.co.in?subject=${subject}&body=${body}`;
+export const meetingMailto = `mailto:contact@indusresearch.co.in?subject=${subject}&body=${body}`;
